@@ -83,7 +83,7 @@ export default function SlideShow() {
     const [userClicked, userClickedSet] = useState(false)
     const [goingDirection, goingDirectionSet] = useState<"left" | "right">("right")
 
-    const userClickedDebounce = useRef<NodeJS.Timeout>()
+    const userClickedDebounce = useRef<NodeJS.Timeout | undefined>(undefined)
 
     //auto scroll
     useEffect(() => {

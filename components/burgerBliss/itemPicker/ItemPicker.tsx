@@ -15,8 +15,8 @@ export default function ItemPicker({ items, sizePre = 250, horizantal = false, s
     const [fastTransition, fastTransitionSet] = useState(false)
 
     const clickedAlready = useRef(false)
-    const fastClickTimeout = useRef<NodeJS.Timeout>()
-    const clickedAlreadyResetTimeout = useRef<NodeJS.Timeout>()
+    const fastClickTimeout = useRef<NodeJS.Timeout | undefined>(undefined)
+    const clickedAlreadyResetTimeout = useRef<NodeJS.Timeout | undefined>(undefined)
 
     const transitionTime = `${fastTransition ? 200 : 1000}`
 

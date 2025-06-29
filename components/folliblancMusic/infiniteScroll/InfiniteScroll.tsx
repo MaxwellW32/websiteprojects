@@ -14,12 +14,12 @@ export default function InfiniteScroll(
         timeToLoop?: number,
         amountOfCarts?: number,
         respondToHover?: boolean,
-        items: JSX.Element[],
+        items: React.JSX.Element[],
         trainProps?: React.HtmlHTMLAttributes<HTMLDivElement>,
     } & React.HtmlHTMLAttributes<HTMLDivElement>) {
 
     const itemsArr = useMemo(() => {
-        const newArr: JSX.Element[] = []
+        const newArr: React.JSX.Element[] = []
 
         for (let index = 0; index < amountOfCarts; index++) {
             if (index > 0) {

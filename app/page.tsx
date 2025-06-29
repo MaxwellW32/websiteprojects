@@ -14,16 +14,6 @@ export default function Home() {
 
             <div style={{ padding: "1rem", color: "#fff", display: "grid", gap: ".5rem", whiteSpace: "nowrap" }}>
               <h3>{eachWebsiteProject.name}</h3>
-
-              <div className='noScrollBar' style={{ display: "flex", gap: "1rem", overflowX: "auto" }}>
-                {eachWebsiteProject.categoryStyles.map((eachCategoryStyle, eachCategoryStyleIndex) => {
-                  return (
-                    <div key={eachCategoryStyleIndex} style={{ borderRadius: "2rem", textTransform: "capitalize", fontSize: ".7rem", padding: ".5rem 1rem", backgroundColor: "#0582f0" }}>
-                      {eachCategoryStyle}
-                    </div>
-                  )
-                })}
-              </div>
             </div>
           </Link>
         )

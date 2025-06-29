@@ -5,9 +5,11 @@ import usePageYScroll from '../usePageScroll/UsePageScroll';
 export default function Parallax({ children, speed, ...elProps }: { children: React.ReactNode, speed: number } & React.HtmlHTMLAttributes<HTMLDivElement>) {
     const translateAmt = usePageYScroll();
     const [offsetTop, setOffsetTop] = useState(0);
-    const ref = useRef<HTMLDivElement>(null!);
+    const ref = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
+        if (ref.current === null) return
+
         setOffsetTop(ref.current.offsetTop);
     }, []);
 

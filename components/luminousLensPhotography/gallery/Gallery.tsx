@@ -8,7 +8,7 @@ export default function Gallery({ galleryItems }: { galleryItems: { name: string
     const [activeImageIndex, activeImageIndexSet] = useState(0)
     const [viewingFullScreen, viewingFullScreenSet] = useState(false)
     const [showingSettings, showingSettingsSet] = useState(false)
-    const debounce = useRef<NodeJS.Timeout>()
+    const debounce = useRef<NodeJS.Timeout | undefined>(undefined)
 
     //stop scrolling on select
     useEffect(() => {
