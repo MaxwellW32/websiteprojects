@@ -16,7 +16,7 @@ export const websiteProjects: websiteProjectType[] = [
     {
         name: "Luminous Lens Photography",
         slug: "luminousLensPhotography",
-        image: `/luminousLens/luminous.jpg`,
+        image: `/luminousLensPhotography/luminous.jpg`,
         type: "landing page",
         forCategory: [],
         categoryStyles: ["modern"],

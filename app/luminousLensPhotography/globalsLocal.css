@@ -1,0 +1,51 @@
+:root {
+  --extraLargeFontSize: 35px;
+  --fontSizeL: 2rem;
+  --fontSizeM: 20px;
+  --fontSizeR: 1rem;
+  --fontSizeS: .7rem;
+  --extraSmallFontSize: 8px;
+
+  --mediumIconSize: 2rem;
+
+  --color1: #9c5451;
+  --color2: #181414;
+  --color3: #181414;
+  --bg1: #181414;
+  --gray1: #ddd;
+  --gray2: hsl(0, 7%, 17%);
+}
+
+body {
+  background-color: var(--bg1);
+  font-family: var(--JosefinSans);
+  color: #fff;
+}
+
+h1 {
+  font-family: var(--JuliusSansOne);
+  font-size: var(--extraLargeFontSize);
+  font-weight: normal;
+}
+
+h2 {
+  color: var(--color1);
+  text-transform: capitalize;
+  font-size: var(--fontSizeR);
+  font-weight: normal;
+}
+
+p {
+  font-weight: 300;
+  max-width: 50ch;
+}
+
+svg {
+  aspect-ratio: 1/1;
+  fill: #fff;
+  width: 1rem;
+}
+
+section {
+  padding: 2rem 1rem;
+}

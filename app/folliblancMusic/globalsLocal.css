@@ -21,6 +21,14 @@ body {
   color: var(--gray1);
 }
 
+h1 {
+  font-family: var(--albertExtraBold);
+}
+
+section {
+  padding: 4rem 1rem;
+}
+
 .slideText {
   position: relative;
   z-index: 0;

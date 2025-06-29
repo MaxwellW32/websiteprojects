@@ -1,18 +1,7 @@
-.mainLayout {}
-
 .main {
     display: grid;
     align-content: flex-start;
     overflow-x: clip;
-}
-
-.mainLayout h1 {
-    font-family: var(--albertExtraBold);
-}
-
-
-.mainLayout section {
-    padding: 4rem 1rem;
 }
 
 .headingCont {
