@@ -1,0 +1,21 @@
+:root {
+  --extraLargeFontSize: calc(1em + 10vw);
+  --fontSizeL: 3.125em;
+  --mediumLargeFontSize: 1.5em;
+  --fontSizeM: 1.875em;
+  --mediumSmallFontSize: 1.25em;
+  --fontSizeR: 1em;
+  --fontSizeS: 0.0625em;
+
+  --iconSizeL: 5em;
+  --mediumIconSize: 3em;
+  --normalIconSize: 2em;
+  --iconSizeS: 1em;
+
+  --color1: #EF3D5B;
+  --color2: #DC9457;
+  --color3: #57B957;
+  --bg1: #1c2123;
+  --gray1: #9b9b9b;
+  --gray2: #e7e7e7;
+}
