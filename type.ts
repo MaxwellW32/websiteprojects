@@ -24,7 +24,7 @@ export const websiteProjects: websiteProjectType[] = [
     },
     {
         name: "Folliblanc Music",
-        slug: "FolliblancMusic",
+        slug: "folliblancMusic",
         image: `/folliblancMusic/titleimage.jpg`,
         type: "landing page",
         forCategory: [],
