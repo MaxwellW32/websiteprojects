@@ -127,7 +127,7 @@ export default function ItemPicker({ items, sizePre = 250, horizantal = false, s
                         })
                     }}>
                     <span style={{ rotate: horizantal ? "90deg" : "180deg", fontSize: "var(--mediumIconSize)" }} className="material-symbols-outlined">
-                        keyboard_arrow_up
+                        keyboard_arrow_down
                     </span>
                 </button>
             </div>
